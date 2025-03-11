@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-03-11 13:07:02.897898",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_info_section",
+  "employee_name",
+  "date",
+  "total_expenses",
+  "expenses_item_info_section",
+  "table_cgko"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "Date"
+  },
+  {
+   "fieldname": "employee_info_section",
+   "fieldtype": "Section Break",
+   "label": "Employee info"
+  },
+  {
+   "fieldname": "total_expenses",
+   "fieldtype": "Float",
+   "label": "Total Expenses",
+   "read_only": 1
+  },
+  {
+   "fieldname": "expenses_item_info_section",
+   "fieldtype": "Section Break",
+   "label": "Expenses Items"
+  },
+  {
+   "fieldname": "table_cgko",
+   "fieldtype": "Table",
+   "label": "Expenses Items",
+   "options": "Expenses Item"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-03-11 13:35:52.015336",
+ "modified_by": "Administrator",
+ "module": "Project Management",
+ "name": "Expenses",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
